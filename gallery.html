@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery - Raihan Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="raihan-khan.png" type="image/x-icon">
+
+    <meta property="og:title" content="Photo Gallery - Raihan Khan">
+    <meta property="og:description" content="A collection of photos from my professional life, travels, and university days.">
+    <meta property="og:image" content="raihan-khan-profile.jpeg">
+    <meta property="og:url" content="https://www.raihankhan.info/gallery.html">
+    <meta property="og:type" content="website">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Raihan Khan</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="full-gallery" class="section" style="padding-top: 120px; background: #f8f9fa;">
+            <div class="container">
+                <h2 class="section-title">Full Photo Gallery</h2>
+                <div id="gallery-grid-full" class="gallery-grid">
+                    <!-- All gallery photos will be dynamically inserted here by script.js -->
+                </div>
+                <div id="pagination-container">
+                    <!-- Pagination buttons will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Raihan Khan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
